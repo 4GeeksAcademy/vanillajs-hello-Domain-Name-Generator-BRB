@@ -1,11 +1,24 @@
-import "bootstrap";
-import "./style.css";
 
+let pronoun = ['the', 'our'];
+let adj = ['horrible', 'ugly', 'fat', 'crazy', 'greedy'];
+let noun = ['person', 'dog', 'cat', 'ice', 'computer'];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+  for(let i=0; i < pronoun.length; i++){
+      pronoun[i];
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+    for(let p=0; p < adj.length; p++){
+      adj[p];
+
+      for(let k=0; k < noun.length; k++){
+        console.log(pronoun[i]+ adj[p]+noun[k] +".com");
+      }
+    }
+    
+  }
+  
+
+  
+
+ 
+  
+  
